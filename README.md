@@ -1,6 +1,10 @@
 # 11-Note-Taker
 
-Express.js note taker application
+![Code Count](https://img.shields.io/github/languages/count/micah41224/11-Note-Taker)
+![Main Code Base](https://img.shields.io/github/languages/top/micah41224/11-Note-Taker)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Last Commit](https://img.shields.io/github/last-commit/micah41224/11-Note-Taker)
+![Repo Size](https://img.shields.io/github/repo-size/micah41224/11-Note-Taker)
 
 ## Project Description
 
@@ -8,7 +12,7 @@ This week's assignment required that I build the backend and routing for an appl
 
 ## Technologies Used:
 
-HTML, CSS, Javascript, Express.js,
+HTML, CSS, Javascript, Express.js, cLog.js, uuid4 package and bootstrap
 
 ## Link to application on Github:
 
