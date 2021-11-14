@@ -14,3 +14,14 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
 
 app.use(express.static('public'));
+
+// Homepage route
+app.get('/', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/index.html'))
+);
+
+// Notes page route
+app.get('/feedback', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/notes.html'))
+);
+
