@@ -2,6 +2,9 @@ const express = require("express");
 const path = require('path');
 const { clog } = require('./middleware/clog');
 const api = require('./routes/index.js');
+const notes = require('./routes/notes')
+const index = require('./routes/index')
+const db = require('./db/db.json');
 
 const PORT = process.env.port || 3001;
 
@@ -21,7 +24,7 @@ app.get('/', (req, res) =>
 );
 
 // Notes page route
-app.get('/feedback', (req, res) =>
+app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
