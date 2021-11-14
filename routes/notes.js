@@ -31,4 +31,6 @@ notes.post('/', (req, res) => {
     };
     readAndAppend(createNote, "./db/db.json");
     res.json("Note created");
-})
+});
+
+module.exports = notes;
