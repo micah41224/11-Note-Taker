@@ -13,3 +13,22 @@ notes.get('/', (req, res) => {
     res.json(JSON.parse(data))
     );
 });
+
+// diagnostics.post('/', (req, res) => {
+//   console.log(req.body);
+
+//   const { isValid, errors } = req.body;
+
+notes.post('/', (req, res) => {
+    console.log(req.body);
+
+    const { title, text } = req.body;
+
+    const createNote = {
+        title,
+        text,
+        id: uuidv4()
+    };
+    readAndAppend(createNote, "./db/db.json");
+    res.json("Note created");
+})
