@@ -20,9 +20,13 @@ https://github.com/micah41224/11-Note-Taker
 
 ## Link to deployed application:
 
+https://still-dawn-02838.herokuapp.com/
+
 ## Screenshots
 
-![Completed Application Screenshot](assets/images/note-taker-final-ss.png)
+![Completed Application Screenshot 1](assets/images/note-taker-final-ss1.png)
+
+![Completed Application Screenshot 2](assets/images/note-taker-final-ss.png)
 
 ## License:
 
