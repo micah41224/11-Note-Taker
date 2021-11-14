@@ -4,7 +4,11 @@ Express.js note taker application
 
 ## Project Description
 
+This week's assignment required that I build the backend and routing for an application that enables the user to record notes in a db.json file. The user is able to save new notes, view previously recorded ones and delete notes from that list. This application is accessible on Heroku!
+
 ## Technologies Used:
+
+HTML, CSS, Javascript, Express.js,
 
 ## Link to application on Github:
 
@@ -14,7 +18,7 @@ https://github.com/micah41224/11-Note-Taker
 
 ## Screenshots
 
-![Completed Application Screenshot](assets/images/???)
+![Completed Application Screenshot](assets/images/note-taker-final-ss.png)
 
 ## License:
 
